@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		9C48B523244C0C69007E5C8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C48B522244C0C69007E5C8F /* AppDelegate.swift */; };
 		9C48B525244C0C69007E5C8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C48B524244C0C69007E5C8F /* SceneDelegate.swift */; };
-		9C48B527244C0C69007E5C8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C48B526244C0C69007E5C8F /* ViewController.swift */; };
 		9C48B52A244C0C69007E5C8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C48B528244C0C69007E5C8F /* Main.storyboard */; };
 		9C48B52C244C0C6B007E5C8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C48B52B244C0C6B007E5C8F /* Assets.xcassets */; };
 		9C48B52F244C0C6B007E5C8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C48B52D244C0C6B007E5C8F /* LaunchScreen.storyboard */; };
+		9C741CDD245958F300286ACB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C741CDC245958F300286ACB /* ViewController.swift */; };
+		9C741CE124597D7B00286ACB /* pikachu.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C741CE024597D7B00286ACB /* pikachu.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9C48B51F244C0C69007E5C8F /* MessageMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessageMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C48B522244C0C69007E5C8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C48B524244C0C69007E5C8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9C48B526244C0C69007E5C8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C48B529244C0C69007E5C8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C48B52B244C0C6B007E5C8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C48B52E244C0C6B007E5C8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C48B530244C0C6B007E5C8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C741CDC245958F300286ACB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C741CE024597D7B00286ACB /* pikachu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pikachu.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +58,10 @@
 		9C48B521244C0C69007E5C8F /* MessageMe */ = {
 			isa = PBXGroup;
 			children = (
+				9C741CE024597D7B00286ACB /* pikachu.png */,
 				9C48B522244C0C69007E5C8F /* AppDelegate.swift */,
 				9C48B524244C0C69007E5C8F /* SceneDelegate.swift */,
-				9C48B526244C0C69007E5C8F /* ViewController.swift */,
+				9C741CDC245958F300286ACB /* ViewController.swift */,
 				9C48B528244C0C69007E5C8F /* Main.storyboard */,
 				9C48B52B244C0C6B007E5C8F /* Assets.xcassets */,
 				9C48B52D244C0C6B007E5C8F /* LaunchScreen.storyboard */,
@@ -128,6 +131,7 @@
 				9C48B52F244C0C6B007E5C8F /* LaunchScreen.storyboard in Resources */,
 				9C48B52C244C0C6B007E5C8F /* Assets.xcassets in Resources */,
 				9C48B52A244C0C69007E5C8F /* Main.storyboard in Resources */,
+				9C741CE124597D7B00286ACB /* pikachu.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C48B527244C0C69007E5C8F /* ViewController.swift in Sources */,
+				9C741CDD245958F300286ACB /* ViewController.swift in Sources */,
 				9C48B523244C0C69007E5C8F /* AppDelegate.swift in Sources */,
 				9C48B525244C0C69007E5C8F /* SceneDelegate.swift in Sources */,
 			);
@@ -293,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = bsahaj.MessageMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = bsahaj.MessageMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

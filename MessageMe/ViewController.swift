@@ -2,19 +2,25 @@
 //  ViewController.swift
 //  MessageMe
 //
-//  Created by Sahaj Boggavaram on 4/18/20.
+//  Created by Sahaj Boggavaram on 4/28/20.
 //  Copyright © 2020 Sahaj Boggavaram. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITabBarController {
 
+    
+    @IBOutlet weak var navbar: UINavigationItem!
+
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        
     }
 
-
+    
 }
-
+ 
